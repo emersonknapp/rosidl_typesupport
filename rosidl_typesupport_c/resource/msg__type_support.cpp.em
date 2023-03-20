@@ -97,6 +97,7 @@ static const rosidl_message_type_support_t @(message.structure.namespaced_type.n
   rosidl_typesupport_c__typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_@(message.structure.namespaced_type.name)_message_typesupport_map),
   rosidl_typesupport_c__get_message_typesupport_handle_function,
+  @('__'.join(message.structure.namespaced_type.namespaced_name()))__TYPE_VERSION_HASH__INIT,
 };
 
 }  // namespace rosidl_typesupport_c
